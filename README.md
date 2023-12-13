@@ -122,7 +122,7 @@ Hi there! I've built PostAway 2.0.0, an updated version of a social media platfo
 
 - **`configurations/`**
     - **`email.config.js`** Nodemailer configurations for sending emails.
-    - **`mongoose.config.js`** Mongoose (MongoDB ODM tool) configurations for database intraction.
+    - **`mongoose.config.js`** Mongoose (MongoDB ODM tool) configurations for database interaction.
     
 
 - **`features/`**
@@ -130,66 +130,66 @@ Hi there! I've built PostAway 2.0.0, an updated version of a social media platfo
 
     - **`comment/`**
 
-        - **`comment.controller.js`** All the cotrolling operations of the comments related APIs.
+        - **`comment.controller.js`** All the controlling operations of the comments-related APIs.
 
-        - **`comment.repository.js`** All the data operations of the comments related APIs.
+        - **`comment.repository.js`** All the data operations of the comments-related APIs.
 
-        - **`comment.route.js`** All the routes configurations of the comments related APIs.
+        - **`comment.route.js`** All the route configurations of the comments-related APIs.
 
-        - **`comment.schema.js`** Database schema of comments using mongoose.
+        - **`comment.schema.js`** Database schema of comments using Mongoose.
 
 
     - **`friendship/`**
 
-        - **`friendship.controller.js`** All the cotrolling operations of the friendship related APIs.
+        - **`friendship.controller.js`** All the controlling operations of the friendship-related APIs.
 
-        - **`friendship.repository.js`** All the data operations of the friendship related APIs.
+        - **`friendship.repository.js`** All the data operations of the friendship-related APIs.
 
-        - **`friendship.route.js`** All the routes configurations of the friendship related APIs.
+        - **`friendship.route.js`** All the route configurations of the friendship-related APIs.
 
-        - **`friendship.schema.js`** Database schema of frienship using mongoose.
+        - **`friendship.schema.js`** Database schema of friendship using Mongoose.
 
 
     - **`like/`**
 
-        - **`like.controller.js`** All the cotrolling operations of the likes related APIs.
+        - **`like.controller.js`** All the controlling operations of the likes-related APIs.
 
-        - **`like.repository.js`** All the data operations of the likes related APIs.
+        - **`like.repository.js`** All the data operations of the likes-related APIs.
 
-        - **`like.route.js`** All the routes configurations of the like related APIs.  
+        - **`like.route.js`** All the route configurations of the like-related APIs.  
 
-        - **`like.schema.js`** Database schema of like using mongoose.
+        - **`like.schema.js`** Database schema of like using Mongoose.
 
 
     - **`OTP/`**
 
-        - **`otp.route.js`** All the routes configurations of the OTP related APIs.
+        - **`otp.route.js`** All the route configurations of the OTP-related APIs.
 
-        - **`otp.controller.js`** All the cotrolling operations of the OTP related APIs.
+        - **`otp.controller.js`** All the cotrolling operations of the OTP-related APIs.
 
-        - **`otp.repository.js`** All the data operations of the OTP related APIs.
+        - **`otp.repository.js`** All the data operations of the OTP-related APIs.
 
 
     - **`post/`**
 
-        - **`post.controller.js`** All the cotrolling operations of the post related APIs.
+        - **`post.controller.js`** All the controlling operations of the post-related APIs.
 
-        - **`post.repository.js`** All the data operations of the post related APIs.
+        - **`post.repository.js`** All the data operations of the post-related APIs.
 
-        - **`post.route.js`** All the routes configurations of the post related APIs.  
+        - **`post.route.js`** All the route configurations of the post-related APIs.  
 
-        - **`post.schema.js`** Database schema of posts using mongoose.  
+        - **`post.schema.js`** Database schema of posts using Mongoose.  
     
 
     - **`user/`**
 
-        - **`user.controller.js`** All the cotrolling operations of the user related APIs.
+        - **`user.controller.js`** All the controlling operations of the user-related APIs.
 
-        - **`user.repository.js`** All the data operations of the user related APIs.
+        - **`user.repository.js`** All the data operations of the user-related APIs.
 
-        - **`user.route.js`** All the routes configurations of the user related APIs.  
+        - **`user.route.js`** All the route configurations of the user-related APIs.  
 
-        - **`user.schema.js`** Database schema of users using mongoose.  
+        - **`user.schema.js`** Database schema of users using Mongoose.  
         
 
 - **`middleware/`**
@@ -207,7 +207,7 @@ Hi there! I've built PostAway 2.0.0, an updated version of a social media platfo
 
 - **`log.txt`** logger.middleware.js file is logging data in this file.
 
-- **`package-lock.json`** This file contains the information about the versions of all the dependencies.
+- **`package-lock.json`** This file contains information about the versions of all the dependencies.
 
 - **`package.json`**: File containing project metadata and dependencies.
 
@@ -221,7 +221,7 @@ Hi there! I've built PostAway 2.0.0, an updated version of a social media platfo
 
  - ### User Route
 
-    -  User registration
+    -  User Registration
 
         `POST /api/users/signup` 
 
@@ -307,7 +307,7 @@ Hi there! I've built PostAway 2.0.0, an updated version of a social media platfo
 
  - ### OTP Route
 
-    - Sends a unique 6 digit otp to user's email
+    - Sends a unique 6-digit OTP to the user's email
 
       `POST /api/otp/send`
 
